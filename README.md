@@ -61,8 +61,16 @@ addr=localhost:6060
 plugin=/home/david/Projects/lightning/plugins/balance/balance.py
 ```
 
+Plugin Libraries: Python
+------------------------
+```bash
+pip install pyln-client pyln-testing pylightning
+```
+
 References
 ----------
 * [Video by Rusty Russell][1]
+* [Plugin API][2]
 
 [1]: https://www.youtube.com/watch?v=fab4P3BIZxk
+[2]: https://lightning.readthedocs.io/PLUGINS.html
