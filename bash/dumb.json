@@ -1,0 +1,32 @@
+{
+    "id": 5,
+    "jsonrpc": "2.0",
+    "result": {
+       "options": [
+            {
+                "default": "World",
+                "description": "What name should I call you?",
+                "name": "greeting",
+                "type": "string"
+            }
+        ],
+        "rpcmethods": [
+            {
+                "description": "Returns a personalized greeting for {greeting} (set via options).",
+                "name": "hello",
+                "usage": "[name]"
+            },
+            {
+                "description": "Returns the sum of balances",
+                "long_description": "Returns the current time in the timezone.\nMultiple lines.",
+                "name": "balance",
+                "usage": ""
+            },
+	    {
+		"description": "newaddr passthrough",
+		"name": "p-newaddr",
+		"usage": "passthrough..."
+	    }
+        ]
+    }
+}
